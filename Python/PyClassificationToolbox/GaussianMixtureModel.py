@@ -1,0 +1,57 @@
+#    Copyright 2016 Stefan Steidl
+#    Friedrich-Alexander-Universität Erlangen-Nürnberg
+#    Lehrstuhl für Informatik 5 (Mustererkennung)
+#    Martensstraße 3, 91058 Erlangen, GERMANY
+#    stefan.steidl@fau.de
+
+
+#    This file is part of the Python Classification Toolbox.
+#
+#    The Python Classification Toolbox is free software: 
+#    you can redistribute it and/or modify it under the terms of the 
+#    GNU General Public License as published by the Free Software Foundation, 
+#    either version 3 of the License, or (at your option) any later version.
+#
+#    The Python Classification Toolbox is distributed in the hope that 
+#    it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+#    warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+#    See the GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with the Python Classification Toolbox.  
+#    If not, see <http://www.gnu.org/licenses/>.
+
+
+import math
+import numpy
+import numpy.matlib
+
+from KMeansClustering import KMeansClustering
+
+
+class GaussianMixtureModel(object):
+	
+	def __init__(self, numComponents, maxIterations = 500):
+		return None
+
+
+	def fit(self, X):
+		return None			
+
+
+	def getComponents(self, X):
+		return None
+
+
+	def getProbabilityScores(self, X):
+		return None
+
+
+	def evaluateGaussian(self, X, prior, mean, cov):
+		return None
+
+
+	def covDistance(self, covs1, covs2):
+		return None
+
+

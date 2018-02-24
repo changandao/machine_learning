@@ -1,0 +1,59 @@
+Title
+Introducing the Python Classification Toolbox
+
+
+Abstract
+
+Describe your presentation in detail. This is what will be reviewed during the review phase.
+This field supports Markdown input.
+
+This presentation will focus on Python programming for education in the area of machine learning.
+We will present the Python Classification Toolbox, our open-source framework that we use in our courses 'Introduction to Pattern Recognition', 'Pattern Recognition', and 'Pattern Analysis' that we offer at Friedrich-Alexander University Erlangen-Nuremberg.
+
+The Python Classification Toolbox has two main objectives:
+
+1) It is a tool to study existing (and implemented) algorithms for classification, regression, clustering, and density estimation. It offers a graphical user interface to interactively create and move samples in a two-dimensional feature space. Samples drawn from a Gaussian distribution can easily be modified by graphically changing the parameters of the distribution. The resulting decision boundaries, regression lines, clustering results, and probability maps can be visualized and studied.  The user immediately sees how the location of samples and the parameters of the algorithms influence the outcome.
+
+2) The toolbox is an object-oriented programming framework where you can implement your own machine learning algorithms to get a better understanding of the algorithms. For our pattern recognition courses, the  basic framework includes the code for the graphical user interface and the program calls of (some) popular scikit-learn algorithms. Own implementations of many machine learning algorithms will be created as part of class assignments and can easily be integrated. Sample solutions are available for other lecturers for many machine learning problems. Due to the benefits of Python, these sample solutions are astonishingly short, but provide deep insights in how these algorithms are implemented in practice. 
+
+The Python Classification Toolbox is an open-source alternative to an existing similar classification toolbox for MATLAB, focusing on visualization and own implementations of the algorithms. It is intended for two-dimensional data and rather small data sets only. It is not meant to be a replacement for powerful machine learning toolboxes such as scikit-learn (Python) or WEKA (Java). However, the sample solutions are efficient implementations to be used in an interactive graphical user interface and demonstrate good Python programming.
+
+The Python Classification Toolbox is free software and can be redistributed and/or modified under the terms of the GNU General Public License.
+The toolbox can be downloaded as a binary for Windows or Linux (tested with Ubuntu 14.04 LTS and Debian 8) from our website: http://www5.cs.fau.de/PyClassificationToolbox.
+It is based on Python 3, NumPy, SciPy, PyQt4, scikit-learn, and cvxopt.
+We are pleased to make the complete source code available for other lecturers.
+
+
+Description
+
+Up to around 50 words. Appears in the printed program.
+This field supports Markdown input.
+
+The Python Classification Toolbox is a GUI for creating two-dimensional data and studying popular machine learning algorithms for classification, regression, clustering, dimensionality reduction, and probability density estimation. Students can visualize decision boundaries, regression lines, and probability maps, and study how parameters change the outcome. Own implementations can be integrated.
+
+
+Tags
+education, visualization, machine learning, classification, regression, clustering, dimensionality reduction, probability density estimation
+
+
+Duration
+Long Talk (45 min.)
+Tutorial (120 min.)
+
+
+Target-audience
+Beginner
+
+
+Additional speakers
+If you want to present with others, please enter their names here.
+
+none
+
+
+Notes
+Add notes or comments here that can only be seen by reviewers and the organizing team.
+
+From a Python perspective, it is a beginner's course, from a pattern recognition point of view, it is an advanced course.
+We submitted this proposal both as a talk and a tutorial. Please choose which format you think is more appropriate for your conference.
+

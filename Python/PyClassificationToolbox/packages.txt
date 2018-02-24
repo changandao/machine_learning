@@ -1,0 +1,25 @@
+import locale
+import math
+import matplotlib
+import os.path
+import pickle
+import platform
+import random
+import re
+import sys
+
+from PyQt4 import Qt, QtCore, QtGui
+import sip
+
+import cvxopt
+import cvxopt.info
+
+import numpy
+import numpy.linalg
+import numpy.matlib
+
+import scipy
+import scipy.optimize
+
+import sklearn
+from sklearn import datasets, ensemble, neighbors, neural_network, svm, tree #, naive_bayes
